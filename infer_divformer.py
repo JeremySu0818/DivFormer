@@ -115,7 +115,7 @@ class MathTokenizer:
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--model_path", type=str, default="divformer_result")
+    parser.add_argument("--model_path", type=str, default="divformer")
     parser.add_argument(
         "--device", type=str, default="cuda" if torch.cuda.is_available() else "cpu"
     )

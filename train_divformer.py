@@ -19,7 +19,7 @@ hf_logging.set_verbosity_error()
 ds_logging.set_verbosity_error()
 
 DATA_DIR = "data_div"
-OUTPUT_DIR = "divformer_result"
+OUTPUT_DIR = "divformer"
 MODEL_DIM = 64
 N_LAYER = 8
 N_HEAD = 8
