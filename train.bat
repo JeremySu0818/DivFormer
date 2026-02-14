@@ -15,14 +15,4 @@ call .venv\Scripts\activate.bat
 
 echo.
 echo [3/3] Starting training
-python train_divformer.py
-
-if %errorlevel% neq 0 (
-    echo.
-    echo An error occurred during the training process.
-    pause
-    exit /b
-)
-
-echo.
-pause
+python train_addformer.py

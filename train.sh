@@ -15,7 +15,4 @@ source .venv/bin/activate
 
 echo
 echo "[3/3] Starting training"
-python train_divformer.py
-
-echo
-read -p "Press Enter to continue..."
+python train_addformer.py
