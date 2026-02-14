@@ -15,4 +15,4 @@ call .venv\Scripts\activate.bat
 
 echo.
 echo [3/3] Starting training
-python train_addformer.py
+python train_divformer.py
